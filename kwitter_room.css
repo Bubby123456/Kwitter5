@@ -1,0 +1,26 @@
+body {
+    background-image: url("Background\ for\ room.jpg");
+    background-size: cover;
+}
+
+.form-group{
+    background-color: darkgoldenrod;
+    width: 800px;
+    border-radius: 60px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+}
+
+input {
+    width: 700px;
+}
+
+#addroom{
+    width: 400px; 
+    font-variant: small-caps;
+    background-color: royalblue;
+}

@@ -1,0 +1,22 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 90px;
+}
+
+#login_div{
+    text-align: center;
+    margin-left: 500px;
+    border: 8px;
+    background-color: aqua;
+}
+
+body {
+    text-align: center;
+    background-image: url("background.jpg");
+    background-size:cover;
+}
+
+
+
+

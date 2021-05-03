@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="kwitter_room.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="kwitter_login.js"></script>
+    </head>
+    <body>
+        <button class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout();" style="margin-left: 1380px;"> LOGOUT</button>
+        <center>
+            <h1 class="header" style="font-size: 30px;font-family: cursive; color: rgb(138, 235, 135);">Enjoy The BlueBird Chat And Look What's Happening In The World Right Now</h1>
+            <br><br>
+            
+             <sup>
+             <img src="Logo bluebird.png">
+             </sup>
+            <br><br>
+            
+             <div class="form-group">
+                 <h1 class="text-capitalize" style="font-family: cursive;font-variant: small-caps;">Create a room here</h1>
+                 <br><br>
+                 <input class="form-control" id="room_name" placeholder="Write The Room name Here" style="color: rgb(41, 88, 243);background-color:rgb(55, 255, 98);" type="text">
+                 <br>
+                 <button class="glyphicon glyphicon-step-forward btn btn-primary " style="font-variant: small-caps; width: 300px; margin-bottom: 10px; margin-top: 10px;font-size: 20px;" onclick="addRoom();">  Addroom</button>
+             </div> 
+             <br>
+             <div>
+                 
+                <h3 style="color:rgb(77, 250, 9);">TRENDINGROOMS</h3>
+                <div id="output"></div>
+             </div> 
+        </center>
+    </body>
+</html>
